@@ -29,9 +29,9 @@ public class JavaApplication5 {
         for(Integer key : map.keySet())
         {
             Integer value = map.get(key);
-            
+            map2.put(value,key);
         }
-        
+        System.out.println(map2);
         
     }
     
