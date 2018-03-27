@@ -26,7 +26,11 @@ public class JavaApplication5 {
         System.out.println(map);
         
         HashMap<Integer,Integer> map2 = new HashMap();
-        
+        for(Integer key : map.keySet())
+        {
+            Integer value = map.get(key);
+            
+        }
         
         
     }
