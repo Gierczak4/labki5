@@ -22,7 +22,11 @@ public class JavaApplication5 {
          for(Integer key : f.keySet())
          {
              Integer value = f.get(key);
-             wynik.put(key,g.get(value));
+             if(g.containsKey(value))
+             {
+                 wynik.put(key, g.get(value));
+             }
+             
          }
          return wynik;
     }                                                          //zadanie 3a
